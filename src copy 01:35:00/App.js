@@ -15,7 +15,6 @@ function App() {
       <Router>
         <Switch>
           <Route path='/search'>
-            <center>This is the search Page Bozo</center>
             <Search />
           </Route>
           <Route path='/'>
