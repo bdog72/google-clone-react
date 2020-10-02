@@ -4,10 +4,11 @@
 import React from 'react';
 
 import Home from './components/Home';
-import Search from './components/Search';
+// import Search from './components/Search';
 
 import './styles/App.css';
 import { BrowserRouter as Router, Route, Switch } from 'react-router-dom';
+import SearchPage from './components/SearchPage';
 
 function App() {
   return (
@@ -15,8 +16,8 @@ function App() {
       <Router>
         <Switch>
           <Route path='/search'>
-            <center>This is the search Page Bozo</center>
-            <Search />
+            {/* <Search /> */}
+            <SearchPage />
           </Route>
           <Route path='/'>
             <Home />
